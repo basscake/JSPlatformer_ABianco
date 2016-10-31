@@ -4,7 +4,10 @@
 .background td { padding: 0;          }
 .lava          { background: #FF3300; }
 .wall          { background: rgb(0, 153, 153); }
-.floater       { background: aquamarine; }
+.actor { position: absolute; }
+.player { background: rgb (64, 64, 64); }
+.coin { background: rgb (241, 229, 89); }
+.monster { background:rgb (255, 51, 0); }
 .game {
   overflow: hidden;
   max-width: 600px;
