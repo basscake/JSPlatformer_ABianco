@@ -3,14 +3,26 @@
                  border-spacing: 0;   }
 .background td { padding: 0;          }
 .lava          { background: #FF3300; }
-.wall          { background: rgb(0, 153, 153); }
-.actor { position: absolute; }
-.player { background: rgb (64, 64, 64); }
-.coin { background: rgb (241, 229, 89); }
-.monster { background:rgb (255, 51, 0); }
+.wall          { background: rgb(0, 153, 153);   }
+.floater	   { background: black; }
+
+.actor  { position: absolute;  }
+.player { background: #FF00FF; }
+.coin { background: 	#ADFF2F; }
+.monster { background: rgb( 250, 250, 250); }
+.donkey { background: 	#B8860B; }
+.monster {background: 	#006400;}
+
 .game {
   overflow: hidden;
   max-width: 600px;
   max-height: 450px;
   position: relative;
+}
+
+.lost .player {
+  background: 	#808080;
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
 }
